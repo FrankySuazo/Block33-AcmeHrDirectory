@@ -12,7 +12,6 @@ router.get("/employees", async (req, res, next) => {
   }
 });
 
-
 router.post("/employees", async (req, res, next) => {
   try {
     const employee = await db.insertEmployee(
