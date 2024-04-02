@@ -1,12 +1,12 @@
 const { client } = require("./");
-const dummyEmployees = [
-  { name: "Namey", department_id: 2 },
-  { name: "Namey Jr.", department_id: 1 },
-  { name: "No Name", department_id: 3 },
-  { name: "Named", department_id: 3 },
-  { name: "Namison", department_id: 2 },
-  { name: "Namer", department_id: 3 },
-  { name: "Name", department_id: 1 },
+const fakeEmployees = [
+  { name: "Name1", department_id: 2 },
+  { name: "Name2", department_id: 1 },
+  { name: "Name3", department_id: 3 },
+  { name: "Name4", department_id: 3 },
+  { name: "Name5", department_id: 2 },
+  { name: "Name6", department_id: 3 },
+  { name: "Name7", department_id: 1 },
 ];
 
 const deleteTables = async () => {
