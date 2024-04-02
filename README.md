@@ -1,7 +1,7 @@
-## Acme HR Directory
-# Overview
+# Acme HR Directory
+## Overview
 In this workshop you will be building an API which will allow the Acme Human Resource Department mange their employees and departments. A department can have many employees and an employee must belong to a department.
-# Directions
+## Directions
 The goal of this workshop is to successfully create the following routes:
 GET /api/employees - returns array of employees
 GET /api/departments - returns an array of departments
